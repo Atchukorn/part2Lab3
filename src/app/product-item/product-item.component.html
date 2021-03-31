@@ -1,0 +1,11 @@
+<div style="width:200px; display: inline-block; border: 1px solid gray; text-align: center; margin:5px;">
+  <h3>{{ product1.name }}</h3>
+  <p>
+    <img [src]="product1.image" width="100px" ><br>
+    <span>ราคา: {{ product1.price }} บาท</span>
+  </p>
+  <p>
+    <button (click)="select()">เลือก</button>
+  </p>
+
+</div>
